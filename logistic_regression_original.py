@@ -1,7 +1,7 @@
 import numpy as np
 
 
-class LogisticRegressionModel:
+class LogisticRegressionOriginal:
     def __init__(self, max_epochs, learning_rate, batch_size):
         self.w = None
         self.b = 0
